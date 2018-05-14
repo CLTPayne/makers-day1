@@ -11,3 +11,7 @@ def sort_then_plus_one(array)
     sort_array(array)
   )
 end
+
+def sum_array(array)
+  array.reduce(:+)
+end
