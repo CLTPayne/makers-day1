@@ -15,3 +15,7 @@ end
 def sum_array(array)
   array.reduce(:+)
 end
+
+def double_sum_array(array)
+  2 * sum_array(array)
+end
