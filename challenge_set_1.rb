@@ -13,7 +13,8 @@ def sort_then_plus_one(array)
 end
 
 def sum_array(array)
-  array.reduce(:+)
+  array.reduce { |a, b| a + b }
+  # array.reduce(:+)
 end
 
 def double_sum_array(array)
